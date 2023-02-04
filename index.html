@@ -1,375 +1,360 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>scolaris-shop</title>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>scolaris-boutique</title>
 </head>
 <body>
-    <header class="header">
-        <nav class="nav container">
-            <div class="navigation d-flex">
-                <div class="icon1">
-                    <i class='bx bx-menu'></i>
-                </div>
-                <div class="logo">
-                    <a href="#">
-                        <img src="./media/Logo__1562x1562__shop.png" alt="">
-                    </a>
-                </div>
-                <div class="menu">
-                    <div class="top">
-                        <span class="fermer">Fermer
-                            <i class='bx bx-x'></i>
-                        </span>
-                    </div>
-                    <ul class="nav_list d-flex">
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">Acceuil</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">Boutique</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">Blog</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">A propos de nous</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="icons d-flex">
-                    <div><i class='bx bx-search'></i></div>
-                    <div><i class='bx bx-user'></i></div>
-                    <div><i class='bx bx-heart bx-burst-hover'></i></div>
-                    <div>
-                        <i class='bx bx-shopping-bag'></i>
-                        <span class="align-center">0</span>
-                    </div>
-                </div>
-            </div>
-        </nav>
-        <div class="banniere">
-            <div class="banniere-contenu d-flex container">
-                <div class="gauche">
-                    <span class="sous-titre">
-                        OBTENEZ VOTRE KITS SCOLAIRE OU TECHNIQUE
-                    </span>
-                    <h1 class="titre">
-                        Jusqu'à
-                        <span class="couleur">15% <br/>
-                        de réduction</span>
-                        sur <br>
-                        nos offres de la semaine
-                    </h1>
-                    <h5>Du 20 septembre au 7 octobre</h5>
-                    <a href="https://wa.me/message/MKASANZR374YG1" class="btn">ACHETEZ MAINTENANT</a>
-                </div>
-                <div class="droit">
-                    <img src="./media/pexels-katerina-holmes-5905515s.png" alt="">
-                </div>
-            </div>
+    <section id="header">
+        <a href="#"><img src="img/Logo__1562x1562__shop.png" alt="" class="logo"></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html" class="active">Acceuil</a></li>
+                <li><a href="shop.html">Boutique</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">A propos</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html"><i class='bx bx-shopping-bag'></i></li></a>
+            </ul>
         </div>
-    </header>
-    <section class="section services">
-        <div class="service-center container">
-            <div class="service">
-                <span class="icon">
-                    <div><i class='bx bx-purchase-tag'></i></div>
-                </span>
-                <h4>Livraison gratuite</h4>
-                <span class="text">commande superieur à 7000 Fcfa</span>
+    </section>
+
+    <section id="banniere">
+        <div class="banniere-contenu">
+            <div class="gauche">
+                <h4>Commandez et faites vous livrez !</h4>
+                <h2>Obtenez Votre Kit <br> Scolaire ou Informatique</h2>
+                <h1>Depuis Chez Vous!</h1>
+                <p>15% de reduction sur votre premier Kit !</p>
+                <a href="https://wa.me/message/MKASANZR374YG1">
+                    <span>Achetez Maintenant !</span> 
+                </a>
             </div>
-            <div class="service">
-                <span class="icon">
-                    <div><i class='bx bx-lock'></i></div>
-                </span>
-                <h4>Livraison gratuite</h4>
-                <span class="text">commande superieur à 7000 Fcfa</span>
+            <div class="droit">
+                <img src="img/bannierePersonalisé1.png" alt="">
             </div>
-            <div class="service">
-                <span class="icon">
-                    <div><i class='bx bxs-left-arrow-circle'></i></div>
-                </span>
-                <h4>Livraison gratuite</h4>
-                <span class="text">commande superieur à 7000 Fcfa</span>
+        </div> 
+    </section>
+
+    <section id="feature" class="section-p1"> 
+        <div class="fe-box">
+            <img src="img/velomoteurColor.png" alt="">
+            <h6 class="livraison">Livraison gratuite</h6>
+            <span class="text">commande superieur à <span class="seuil-prix-livraison">7000Fcfa</span></span>
+        </div>
+        <div class="fe-box">
+            <img src="img/controle-de-qualiteColor.png" alt="">
+            <h6 class="qualite">Qualité certifié</h6>
+            <span class="text">100% Garantie</span>
+        </div>
+        <div class="fe-box">
+            <img src="img/euroSolidGold.png" alt="">
+            <h6 class="economie">Énormes économies</h6>
+            <span class="text">Au prix le plus bas</span>
+        </div>
+        <div class="fe-box">
+            <img src="img/de-retour-en-magasinColor.png" alt="">
+            <h6 class="retour">Retours faciles</h6>
+            <span class="text">Aucune question posée</span>
+        </div>
+    </section>
+
+    <section id="product1" class="section-p1">
+        <h2>Produits Vedettes</h2>
+        <p>Gamme de produits moderne</p>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="img/003omb.png" class="proImg"alt="">
+                <div class="description">
+                    <span>sacs à dos</span>
+                    <h5>Cuire simple designe</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>20.000Fcfa</h4>
+                </div>
+                <a href="https://wa.me/message/MKASANZR374YG1"><img src="img/symbole-en-mouvement-de-panier-dachatColor.png" alt=""></a>
             </div>
-            <div class="service">
-                <span class="icon">
-                    <div><i class='bx bx-headphone'></i></div>
-                </span>
-                <h4>Livraison gratuite</h4>
-                <span class="text">commande superieur à 7000 Fcfa</span>
+            <div class="pro">
+                <img src="img/027omb.png" class="proImg"alt="">
+                <div class="description">
+                    <span>sacs à dos</span>
+                    <h5>Cuire simple designe</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>20.000Fcfa</h4>
+                </div>
+                <a href="https://wa.me/message/MKASANZR374YG1"><img src="img/symbole-en-mouvement-de-panier-dachatColor.png" alt=""></a>
+            </div>
+            <div class="pro">
+                <img src="img/019omb.png" class="proImg"alt="">
+                <div class="description">
+                    <span>sacs à dos</span>
+                    <h5>Cuire simple designe</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>20.000Fcfa</h4>
+                </div>
+                <a href="https://wa.me/message/MKASANZR374YG1"><img src="img/symbole-en-mouvement-de-panier-dachatColor.png" alt=""></a>
+            </div>
+            <div class="pro">
+                <img src="img/031omb.png" class="proImg"alt="">
+                <div class="description">
+                    <span>sacs à dos</span>
+                    <h5>Cuire simple designe</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>20.000Fcfa</h4>
+                </div>
+                <a href="https://wa.me/message/MKASANZR374YG1"><img src="img/symbole-en-mouvement-de-panier-dachatColor.png" alt=""></a>
+            </div>
+            <div class="pro">
+                <img src="img/ordi1.png" class="proImg"alt="">
+                <div class="description">
+                    <span>Ordinateur Portable</span>
+                    <h5>HP modele moderne</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>350.000Fcfa</h4>
+                </div>
+                <a href="https://wa.me/message/MKASANZR374YG1"><img src="img/symbole-en-mouvement-de-panier-dachatColor.png" alt=""></a>
+            </div>
+            <div class="pro">
+                <img src="img/ordi2.png" class="proImg"alt="">
+                <div class="description">
+                    <span>Ordinateur Portable</span>
+                    <h5>HP modele moderne</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>300.000Fcfa</h4>
+                </div>
+                <a href="https://wa.me/message/MKASANZR374YG1"><img src="img/symbole-en-mouvement-de-panier-dachatColor.png" alt=""></a>
+            </div>
+            <div class="pro">
+                <img src="img/ordi3.png" class="proImg"alt="">
+                <div class="description">
+                    <span>Ordinateur Portable</span>
+                    <h5>HP modele moderne</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>400.000Fcfa</h4>
+                </div>
+                <a href="https://wa.me/message/MKASANZR374YG1"><img src="img/symbole-en-mouvement-de-panier-dachatColor.png" alt=""></a>
+            </div>
+            <div class="pro">
+                <img src="img/ordi5.png" class="proImg"alt="">
+                <div class="description">
+                    <span>Ordinateur Portable</span>
+                    <h5>HP modele moderne</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>325.000Fcfa</h4>
+                </div>
+                <a href="https://wa.me/message/MKASANZR374YG1"><img src="img/symbole-en-mouvement-de-panier-dachatColor.png" alt=""></a>
             </div>
         </div>
     </section>
-    <section class="section">
-        <div class="titre">
-            <h1><span>Nouvelles</span> Arrivages</h1>
-        </div>
-        <div class="centre-produit container">
-            <div class="produit">
-                <div class="img-cover">
-                    <img src="./media/003omb.png" alt="image">
+
+    <section id="banniere-rapair-service" class="section-m1">
+        <h4>Services Promotion</h4>
+        <h2>Jusqu'à <span>15% de reduction</span> sur votre premier kit</h2>
+        <button class="normal">En savoir plus</button>
+    </section>
+
+    <section id="product1" class="section-p1">
+        <h2>Nouvelles Arrivages</h2>
+        <p>Gamme de produits moderne</p>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="img/026omb.png" class="proImg"alt="">
+                <div class="description">
+                    <span>sacs à dos</span>
+                    <h5>Cuire simple designe</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>20.000Fcfa</h4>
                 </div>
-                <p>Simple Cuire</p>
-                <div class="rating">
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                </div>
-                <div class="prix">20 000 Fcfa</div>
+                <a href="https://wa.me/message/MKASANZR374YG1"><img src="img/symbole-en-mouvement-de-panier-dachatColor.png" alt=""></a>
             </div>
-            <div class="produit">
-                <div class="img-cover">
-                    <img src="./media/019omb.png" alt="image">
+            <div class="pro">
+                <img src="img/032omb.png" class="proImg"alt="">
+                <div class="description">
+                    <span>sacs à dos</span>
+                    <h5>Cuire simple designe</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>20.000Fcfa</h4>
                 </div>
-                <p>Simple Cuire</p>
-                <div class="rating">
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                </div>
-                <div class="prix">20 000 Fcfa</div>
+                <a href="https://wa.me/message/MKASANZR374YG1"><img src="img/symbole-en-mouvement-de-panier-dachatColor.png" alt=""></a>
             </div>
-            <div class="produit">
-                <div class="img-cover">
-                    <img src="./media/020omb.png" alt="image">
+            <div class="pro">
+                <img src="img/003omb.png" class="proImg"alt="">
+                <div class="description">
+                    <span>sacs à dos</span>
+                    <h5>Cuire simple designe</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>20.000Fcfa</h4>
                 </div>
-                <p>Simple Cuire</p>
-                <div class="rating">
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                </div>
-                <div class="prix">20 000 Fcfa</div>
+                <a href="https://wa.me/message/MKASANZR374YG1"><img src="img/symbole-en-mouvement-de-panier-dachatColor.png" alt=""></a>
             </div>
-            <div class="produit">
-                <div class="img-cover">
-                    <img src="./media/027omb.png" alt="image">
+            <div class="pro">
+                <img src="img/034omb.png" class="proImg"alt="">
+                <div class="description">
+                    <span>sacs à dos</span>
+                    <h5>Cuire simple designe</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>20.000Fcfa</h4>
                 </div>
-                <p>Simple Cuire</p>
-                <div class="rating">
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
+                <a href="https://wa.me/message/MKASANZR374YG1"><img src="img/symbole-en-mouvement-de-panier-dachatColor.png" alt=""></a>
+            </div>
+            <div class="pro">
+                <img src="img/ordi4omb.png" class="proImg"alt="">
+                <div class="description">
+                    <span>Ordinateur Portable</span>
+                    <h5>HP modele moderne</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>350.000Fcfa</h4>
                 </div>
-                <div class="prix">20 000 Fcfa</div>
+                <a href="https://wa.me/message/MKASANZR374YG1"><img src="img/symbole-en-mouvement-de-panier-dachatColor.png" alt=""></a>
+            </div>
+            <div class="pro">
+                <img src="img/ordi6omb.png" class="proImg"alt="">
+                <div class="description">
+                    <span>Ordinateur Portable</span>
+                    <h5>HP modele moderne</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>300.000Fcfa</h4>
+                </div>
+                <a href="https://wa.me/message/MKASANZR374YG1"><img src="img/symbole-en-mouvement-de-panier-dachatColor.png" alt=""></a>
+            </div>
+            <div class="pro">
+                <img src="img/ordi7omb.png" class="proImg"alt="">
+                <div class="description">
+                    <span>Ordinateur Portable</span>
+                    <h5>HP modele moderne</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>400.000Fcfa</h4>
+                </div>
+                <a href="https://wa.me/message/MKASANZR374YG1"><img src="img/symbole-en-mouvement-de-panier-dachatColor.png" alt=""></a>
+            </div>
+            <div class="pro">
+                <img src="img/ordi8omb.png" class="proImg"alt="">
+                <div class="description">
+                    <span>Ordinateur Portable</span>
+                    <h5>HP modele moderne</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>325.000Fcfa</h4>
+                </div>
+                <a href="https://wa.me/message/MKASANZR374YG1"><img src="img/symbole-en-mouvement-de-panier-dachatColor.png" alt=""></a>
             </div>
         </div>
     </section>
-    <section class="section">
-        <div class="titre">
-            <h1><span>Produits Par</span> Categories</h1>
+
+    <section id="sm-banniere" class="section-p1">
+        <div class="banniere-box">
+            <h4>ça le fait !</h4>
+            <h2>commande où que tu sois</h2>
+            <span>Les meilleurs des marques se trouve à scolaris</span>
+            <button class="white">Lire Plus</button>
         </div>
-        <div class="categorie container">
-            <div class="article art1">
-                <img src="./media/logo_650x650__catégoriesScolaire.png" alt="">
-            </div>
-            <div class="article art2">
-                <img src="./media/logo_650x650__catégoriesInformatique.png" alt="">
-            </div>
-            <div class="article art3">
-                <img src="./media/logo_650x650__catégoriesElectricité.png" alt="">
-            </div>
-            <div class="article art4">
-                <img src="./media/logo_650x650__catégoriesMécanique.png" alt="">
-            </div>
+        <div class="banniere-box banniere-box2">
+            <h4>Tout Cycle</h4>
+            <h2>Primaire/Collège<br>Lycée/Faculté</h2>
+            <span>Les meilleurs des marques se trouve à scolaris</span>
+            <button class="white">Lire Plus</button>
         </div>
     </section>
-    <section class="section">
-        <div class="titre">
-            <h1><span>Produits</span> Populaires</h1>
-        </div>
-        <div class="centre-produit container">
-            <div class="produit">
-                <div class="img-cover">
-                    <img src="./media/003omb.png" alt="image">
-                </div>
-                <p>Simple Cuire</p>
-                <div class="rating">
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                </div>
-                <div class="prix">20 000 Fcfa</div>
-            </div>
-            <div class="produit">
-                <div class="img-cover">
-                    <img src="./media/019omb.png" alt="image">
-                </div>
-                <p>Simple Cuire</p>
-                <div class="rating">
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                </div>
-                <div class="prix">20 000 Fcfa</div>
-            </div>
-            <div class="produit">
-                <div class="img-cover">
-                    <img src="./media/020omb.png" alt="image">
-                </div>
-                <p>Simple Cuire</p>
-                <div class="rating">
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                </div>
-                <div class="prix">20 000 Fcfa</div>
-            </div>
-            <div class="produit">
-                <div class="img-cover">
-                    <img src="./media/027omb.png" alt="image">
-                </div>
-                <p>Simple Cuire</p>
-                <div class="rating">
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                </div>
-                <div class="prix">20 000 Fcfa</div>
-            </div>
-            <div class="produit">
-                <div class="img-cover">
-                    <img src="./media/003omb.png" alt="image">
-                </div>
-                <p>Simple Cuire</p>
-                <div class="rating">
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                </div>
-                <div class="prix">20 000 Fcfa</div>
-            </div>
-            <div class="produit">
-                <div class="img-cover">
-                    <img src="./media/003omb.png" alt="image">
-                </div>
-                <p>Simple Cuire</p>
-                <div class="rating">
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                </div>
-                <div class="prix">20 000 Fcfa</div>
-            </div>
-            <div class="produit">
-                <div class="img-cover">
-                    <img src="./media/003omb.png" alt="image">
-                </div>
-                <p>Simple Cuire</p>
-                <div class="rating">
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                </div>
-                <div class="prix">20 000 Fcfa</div>
-            </div>
-            <div class="produit">
-                <div class="img-cover">
-                    <img src="./media/003omb.png" alt="image">
-                </div>
-                <p>Simple Cuire</p>
-                <div class="rating">
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                </div>
-                <div class="prix">20 000 Fcfa</div>
-            </div>
-        </div>
-    </section>
-    <footer id="footer" class="section footer">
-        <div class="container">
-            <div class="footer-container">
-                <div class="footer-center">
-                    <h3>ENTREPRISE</h3>
-                    <a href="#">Marque</a>
-                    <a href="#">Code promo</a>
-                    <a href="#">Offre speciale</a>
-                    <a href="#">Carte du site</a>
-                </div>
-                <div class="footer-center">
-                    <h3>ENTREPRISE</h3>
-                    <a href="#">Marque</a>
-                    <a href="#">Code promo</a>
-                    <a href="#">Offre speciale</a>
-                    <a href="#">Carte du site</a>
-                </div>
-                <div class="footer-center">
-                    <h3>ENTREPRISE</h3>
-                    <a href="#">Marque</a>
-                    <a href="#">Code promo</a>
-                    <a href="#">Offre speciale</a>
-                    <a href="#">Carte du site</a>
-                </div>
-                <div class="footer-center">
-                    <h3>CONTACTE NOUS</h3>
-                    <div>
-                        <span>
-                            <i class="fa fa-map-marker-alt"></i>
-                        </span>
-                        Avenue Kwame Nkruma, Ouagadougo,BF
-                    </div>
-                    <div>
-                        <span>
-                            <i class="fa fa-envelope"></i>
-                        </span>
-                        scolaris.shop@.gmail.com
-                    </div>
-                    <div>
-                        <span>
-                            <i class="fa fa-phone"></i>
-                        </span>
-                        +226 63334446
-                    </div>
-                    <div>
-                        <span>
-                            <i class="fa fa-paper-plane"></i>
-                        </span>
-                        Ouagadougo,Burkina Faso
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="copyright">
-            copyright©2022 Tous droits reservés 
-            <a href="#">scolaris.shop</a> 
-        </div>
-    </footer>
-    <script type="text/javascript" src="./script.js"></script>
+ 
+    <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
